@@ -1,6 +1,6 @@
 env:
-    de: ENCRYPTED[d6e85fb9769064a67bf226f98c4faf0bdfda610fcd5b9ca52a0c9211645698d82eebcbeb0d9155355c31a5c277434a02]
-    dee: ENCRYPTED[fbe8cd9367deb6b7ce142cbeb1edcad3a47854d9ecc137d1577903b10e78a7620e1f8df7b0980b8f41466555c6a2dd90]
+    de: ENCRYPTED[8488bdf67ada3f3b1b932b66f5feb6ee7fbf45276a13ea95d2aae02cde526bb5bcf5212fbd3e15af2805b2cbdf36cc35]
+    dee: ENCRYPTED[29f887a48ac3e86ee91a394afc71f5b6c7f91f75f44ea19cff856b843a7a73eb7ca29a43e84bfc29a00f8ac592b178f8]
 
 task:
   name: "build"
